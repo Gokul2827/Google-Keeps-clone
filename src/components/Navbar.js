@@ -1,11 +1,10 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import 'boxicons';
 import icon from "../assets/Google_Keep_icon.png"
 import './Navbar.css'
 import {Link} from 'react-router-dom'
 
 function Navbar(props) {
-  const menu = useRef()
   const openmenu=()=>{
     document.getElementById("menu").classList.toggle("show")
   //  console.log("hello");   

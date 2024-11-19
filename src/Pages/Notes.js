@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 function Notes(props) {
 
@@ -10,7 +10,7 @@ function Notes(props) {
     <section className='note' id='note'>
     {props.get.map((da,index)=>{
       return(
-        <div className='content' key={index} style={{backgroundColor:color=="#000000"?"white":color}}>
+        <div className='content' key={index} style={{backgroundColor:color==="#000000"?"white":color}}>
           <p className='ti'>{da.title}</p>
         <p className='p'>{da.note}</p>
         <div className='ico'>
